@@ -4,7 +4,7 @@
 
 // Package armor implements OpenPGP ASCII Armor, see RFC 4880. OpenPGP Armor is
 // very similar to PEM except that it has an additional CRC checksum.
-package armor // import "github.com/keybase/go-crypto/openpgp/armor"
+package armor // import "github.com/dvusboy/go-crypto/openpgp/armor"
 
 import (
 	"bufio"
@@ -13,7 +13,7 @@ import (
 	"io"
 	"strings"
 
-	"github.com/keybase/go-crypto/openpgp/errors"
+	"github.com/dvusboy/go-crypto/openpgp/errors"
 )
 
 // A Block represents an OpenPGP armored structure.

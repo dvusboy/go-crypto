@@ -15,9 +15,9 @@ import (
 	"strconv"
 	"time"
 
-	"github.com/keybase/go-crypto/openpgp/errors"
-	"github.com/keybase/go-crypto/openpgp/s2k"
-	"github.com/keybase/go-crypto/rsa"
+	"github.com/dvusboy/go-crypto/openpgp/errors"
+	"github.com/dvusboy/go-crypto/openpgp/s2k"
+	"github.com/dvusboy/go-crypto/rsa"
 )
 
 const (

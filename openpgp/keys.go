@@ -6,10 +6,10 @@ package openpgp
 
 import (
 	"crypto/hmac"
-	"github.com/keybase/go-crypto/openpgp/armor"
-	"github.com/keybase/go-crypto/openpgp/errors"
-	"github.com/keybase/go-crypto/openpgp/packet"
-	"github.com/keybase/go-crypto/rsa"
+	"github.com/dvusboy/go-crypto/openpgp/armor"
+	"github.com/dvusboy/go-crypto/openpgp/errors"
+	"github.com/dvusboy/go-crypto/openpgp/packet"
+	"github.com/dvusboy/go-crypto/rsa"
 	"io"
 	"time"
 )

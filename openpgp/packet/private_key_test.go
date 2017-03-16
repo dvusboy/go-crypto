@@ -12,8 +12,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/keybase/go-crypto/openpgp/elgamal"
-	"github.com/keybase/go-crypto/rsa"
+	"github.com/dvusboy/go-crypto/openpgp/elgamal"
+	"github.com/dvusboy/go-crypto/rsa"
 )
 
 var privateKeyTests = []struct {
